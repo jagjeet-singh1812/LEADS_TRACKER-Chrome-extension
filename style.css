@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 10px;
+    font:Arial,sans-serif,Helvetica;
+    min-width: 400px
+}
+
+input{
+padding: 10px 10px;
+width:99%;
+border: 2px solid #5f9341;
+}
+
+button{
+    background: #5f9341;
+    color:white;
+    margin-top: 5vh;
+    padding: 5px 20px;
+    /* height:10vh; */
+    border: 1px solid #5f9341;
+    width:25vw;
+    font-weight: bold;
+}
+ ul{
+    margin-top:15px;
+   list-style:none;
+   padding-left: 0px;
+
+ }
+
+li{
+margin-top:3px;
+ }
+
+li a{
+    color:#5f9341;
+ }
+
+#inpu-btn:hover{
+    background: white;
+    color:#5f9341
+}
+
+ #del-btn{
+ background: white;
+ color:#5f9341
+ }
+
+ #del-btn:hover{
+    background:#5f9341;
+ color:white
+ }
